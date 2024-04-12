@@ -11,7 +11,7 @@ df = pd.read_csv('malik-landledger-dummy.csv')
 
 # creating UI
 st.title(":green_book: Malik's LandLedger")
-st.caption('Your land, your legacy')
+st.caption('The owner has land in 1000-1199 khasra and 1-200 khewat.')
 st.divider()
 
 st.selectbox('Please select the way, you wanna search your land.', options = ['Khasra', 'Khewat'], key = 'search_type', label_visibility = 'hidden')
